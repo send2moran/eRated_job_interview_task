@@ -1,0 +1,18 @@
+{
+  "name": "eRatedTask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "puer"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.13.3",
+    "whatwg-fetch": "^0.9.0"
+  },
+  "devDependencies": {
+    "puer": "^1.1.1"
+  }
+}

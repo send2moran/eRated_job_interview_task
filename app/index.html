@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>eRated Widget</title>
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+
+  <div id="app-container" class="app-container">
+
+  </div>
+
+  <script type="text/javascript" src="../node_modules/react/dist/react.js"></script>
+  <script type="text/javascript" src="../node_modules/react/dist/JSXTransformer.js"></script>
+  <script type="text/javascript" src="js/alt.js"></script>
+  <script type="text/javascript" src="../node_modules/whatwg-fetch/fetch.js"></script>
+  <script type="text/javascript" src="js/polyfills.js"></script>
+
+  <script>
+    window.alt = new Alt();
+    window.Components = {};
+  </script>
+  <script type="text/jsx" src="services/api.js"></script>
+
+  <script type="text/jsx" src="flux/actions/actions.js"></script>
+  <script type="text/jsx" src="flux/stores/userStore.js"></script>
+  <script type="text/jsx" src="flux/stores/socialStore.js"></script>
+  <script type="text/jsx" src="flux/stores/servicesStore.js"></script>
+  <script type="text/jsx" src="flux/stores/reputationStore.js"></script>
+  <script type="text/jsx" src="components/avatar.js"></script>
+  <script type="text/jsx" src="components/rating.js"></script>
+  <script type="text/jsx" src="components/user.js"></script>
+  <script type="text/jsx" src="components/social.js"></script>
+  <script type="text/jsx" src="components/services.js"></script>
+  <script type="text/jsx" src="components/reputation.js"></script>
+  <script type="text/jsx" src="components/service-panel.js"></script>
+  <script type="text/jsx" src="components/app-container.js"></script>
+  <script type="text/jsx" src="js/index.js"></script>
+
+</body>
+</html>
